@@ -1,9 +1,8 @@
 package com.example.secondapp;
 
-import android.os.Bundle;
-
-import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
 
 public class Register_Activity extends AppCompatActivity {
 
