@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "150644964137",
+    "project_id": "miappandroid-1005",
+    "storage_bucket": "miappandroid-1005.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:150644964137:android:895c3fd15297d8d93bd538",
+        "android_client_info": {
+          "package_name": "com.example.secondapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "150644964137-ftgpeouqpncok5olbl6r4be6nku72bgc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.secondapp",
+            "certificate_hash": "6a504d2f0c553012dd0ac74fac914f34d99927c2"
+          }
+        },
+        {
+          "client_id": "150644964137-cectfto20fpgtp1buafpabisukbuoulf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA76Y-f6X9sFQtsLAizjjSUJ-2CVBowXWU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "150644964137-cectfto20fpgtp1buafpabisukbuoulf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

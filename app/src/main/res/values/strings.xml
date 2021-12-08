@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SecondApp</string>
+    <string name="correo_electronico">Correo Electrónico</string>
+    <string name="constrasena">Contraseña</string>
+</resources>
