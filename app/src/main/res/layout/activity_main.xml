@@ -30,45 +30,71 @@
             android:layout_marginBottom="10dp"
             android:src="@drawable/logo_iniciar_sesion" />
 
-        <com.google.android.material.textfield.TextInputLayout
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
 
-            <com.google.android.material.textfield.TextInputEditText
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/email" />
+
+            <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@color/transparente"
-                android:hint="@string/correo_electronico"
-                android:inputType="textEmailAddress"
-                android:textColor="@color/white">
+                android:layout_height="wrap_content">
 
-            </com.google.android.material.textfield.TextInputEditText>
-        </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/log_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparente"
+                    android:hint="@string/correo_electronico"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@color/white">
 
-        <com.google.android.material.textfield.TextInputLayout
+                </com.google.android.material.textfield.TextInputEditText>
+            </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+    <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
 
-            <com.google.android.material.textfield.TextInputEditText
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/pass" />
+
+            <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@color/transparente"
-                android:hint="@string/constrasena"
-                android:inputType="textPassword"
+                android:layout_height="wrap_content">
 
-                />
-        </com.google.android.material.textfield.TextInputLayout>
-
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/log_pass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparente"
+                    android:hint="@string/constrasena"
+                    android:inputType="textPassword"
+                    android:textColor="@color/white"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
         <Button
+            android:id="@+id/log_btn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="20dp"
             android:layout_marginRight="20dp"
             android:background="@drawable/rounded_botton"
-            android:text="Iniciar Sesion"
-
-            ></Button>
+            android:text="Iniciar Sesion"></Button>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -83,12 +109,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="¿no tienes cuenta?"
+                android:textColor="@color/white"
+                android:textSize="17dp"
                 android:layout_marginRight="20dp"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="REGISTRARSE"
+                android:textColor="@color/white"
+                android:textSize="17dp"
                 android:id="@+id/TextViewRegister"/>
         </LinearLayout>
     </LinearLayout>
