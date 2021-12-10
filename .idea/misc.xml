@@ -4,13 +4,19 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/proyectos/SecondApp/app/src/main/res/drawable/email.xml" value="0.1600877192982456" />
+        <entry key="..\:/proyectos/SecondApp/app/src/main/res/drawable/logo_iniciar_sesion.xml" value="0.18311688311688312" />
         <entry key="..\:/proyectos/SecondApp/app/src/main/res/drawable/logo_register.xml" value="0.18552631578947368" />
         <entry key="..\:/proyectos/SecondApp/app/src/main/res/drawable/pass.xml" value="0.1600877192982456" />
         <entry key="..\:/proyectos/SecondApp/app/src/main/res/drawable/person_icon.xml" value="0.18552631578947368" />
         <entry key="..\:/proyectos/SecondApp/app/src/main/res/drawable/register_logo.xml" value="0.18552631578947368" />
         <entry key="..\:/proyectos/SecondApp/app/src/main/res/drawable/rounded_botton.xml" value="0.2046875" />
+        <entry key="..\:/proyectos/SecondApp/app/src/main/res/layout/activity_complete_profile.xml" value="0.17192982456140352" />
+        <entry key="..\:/proyectos/SecondApp/app/src/main/res/layout/activity_home.xml" value="0.1693840579710145" />
         <entry key="..\:/proyectos/SecondApp/app/src/main/res/layout/activity_main.xml" value="0.22" />
-        <entry key="..\:/proyectos/SecondApp/app/src/main/res/layout/activity_register.xml" value="0.1" />
+        <entry key="..\:/proyectos/SecondApp/app/src/main/res/layout/activity_register.xml" value="0.15" />
+        <entry key="..\:/proyectos/SecondApp/app/src/main/res/layout/fragment_home.xml" value="0.17192982456140352" />
+        <entry key="..\:/proyectos/SecondApp/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.1" />
+        <entry key="..\:/proyectos/SecondApp/app/src/main/res/menu/botton_navigation_menu.xml" value="0.17192982456140352" />
       </map>
     </option>
   </component>

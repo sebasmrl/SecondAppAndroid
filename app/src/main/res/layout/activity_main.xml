@@ -5,7 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".activities.MainActivity"
     android:background="@drawable/fondo_movil">
 
     <View
@@ -95,6 +95,15 @@
             android:layout_marginRight="20dp"
             android:background="@drawable/rounded_botton"
             android:text="Iniciar Sesion"></Button>
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/log_btnGoogle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            />
 
         <LinearLayout
             android:layout_width="match_parent"

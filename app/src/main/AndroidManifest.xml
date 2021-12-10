@@ -10,10 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SecondApp">
         <activity
-            android:name=".Register_Activity"
+            android:name=".activities.CompleteProfileActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".activities.Home_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Register_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
