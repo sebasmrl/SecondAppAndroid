@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.secondapp">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/icono_perfil"
@@ -9,6 +12,9 @@
         android:roundIcon="@drawable/icono_perfil"
         android:supportsRtl="true"
         android:theme="@style/Theme.SecondApp">
+        <activity
+            android:name=".activities.PostActivity"
+            android:exported="false" />
         <activity
             android:name=".activities.CompleteProfileActivity"
             android:exported="false" />
